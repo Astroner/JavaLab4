@@ -4,7 +4,7 @@ import yui.App;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		String root = "/JavaLabs/";
+		String root = "/";
 		IFileManager manager = new Manager(root);
 		
 		

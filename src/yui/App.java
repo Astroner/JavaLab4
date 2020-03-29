@@ -18,7 +18,7 @@ public class App {
 	public App(IFileManager manager) {
 		this.manager = manager;
 		
-		System.out.println(Arrays.toString(manager.getContent()));
+		System.out.println(Arrays.toString(manager.getContent().toArray()));
 		
 		Point[] options = {
 			new BasicPoint("start", new Executable() {

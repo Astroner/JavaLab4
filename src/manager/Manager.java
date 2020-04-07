@@ -173,11 +173,11 @@ public class Manager implements IFileManager {
 				String name = f.getName();
 				int dotIndex = name.indexOf(".");
 				IFile file1 = new BasicFile(
-						name.substring(
-							0, 
-							dotIndex == -1 ? name.length() - 1 : dotIndex
-						), 
-						getExtension(f)
+					name.substring(
+						0, 
+						dotIndex == -1 ? name.length() - 1 : dotIndex
+					), 
+					getExtension(f)
 				);
 				files.add(file1);
 				linker.put(file1, f);

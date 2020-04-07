@@ -1,4 +1,5 @@
-import manager.*;
+import manager.IFileManager;
+import manager.Manager;
 import yui.App;
 
 public class Main {

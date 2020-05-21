@@ -23,16 +23,6 @@ public class Manager implements IFileManager {
 		}
 		current = file;
 		refresh(file);
-		/*
-		 * System.out.println(Arrays.deepToString(files.toArray()));
-		 * System.out.println(Arrays.deepToString(this.goTo(files.get(2)).toArray()));
-		 * System.out.println(Arrays.deepToString(this.goTo(files.get(2)).toArray()));
-		 * System.out.println(Arrays.deepToString(this.delete(files.get(0)).toArray()));
-		 * System.out.println(Arrays.deepToString(this.create("static", "txt",
-		 * "ASDASDASD").toArray()));
-		 * System.out.println(Arrays.deepToString(this.mkdir("statics").toArray()));
-		 * this.edit(files.get(1));
-		 */
 	}
 
 	

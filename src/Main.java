@@ -10,6 +10,7 @@ public class Main {
 		
 		
 		App app = new App(manager);
+		app.start();
 	}
 
 }

@@ -1,6 +1,6 @@
 package yui;
 
 public interface MenuItem {
-	public String getLabel();
-	public void execute();
+	String getLabel();
+	void exec();
 }
